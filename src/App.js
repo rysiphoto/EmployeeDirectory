@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from "react";
+import EmployeeCard from "./components/employee";
 import logo from './logo.svg';
 import './App.css';
 
