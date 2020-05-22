@@ -1,9 +1,12 @@
-import React from "react";
+import React from "./node_modules/react";
 import "./style.css";
 
 function EmployeeCard(props) {
   return (
     <div class="card w-75">
+      <div className="img-container">
+        <img alt={props.name} src={props.picture} />
+      </div>
       <div class="card-body">
         <h5 class="card-title">
           <strong>Name:</strong> {props.name}
