@@ -1,17 +1,17 @@
-import React from "./node_modules/react";
+import React from "react";
 import "./style.css";
 
 function EmployeeCard(props) {
   return (
-    <div class="card w-75">
+    <div className="card w-75">
       <div className="img-container">
         <img alt={props.name} src={props.picture} />
       </div>
-      <div class="card-body">
-        <h5 class="card-title">
+      <div className="card-body">
+        <h5 className="card-title">
           <strong>Name:</strong> {props.name}
         </h5>
-        <p class="card-text">
+        <p className="card-text">
           <strong>E-Mail</strong> {props.email}
         </p>
         <p>

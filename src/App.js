@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import EmployeeCard from "./components/Employee";
 import Wrapper from "./components/Wrapper";
+import EmployeeCard from "./components/Employee";
 import Title from "./components/Title";
 import employees from "./employees.json";
 import './App.css';
