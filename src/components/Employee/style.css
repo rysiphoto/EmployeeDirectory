@@ -1,15 +1,24 @@
-.card {
+.list-group-horizontal-lg {
   background: #fff;
   border-radius: 2px;
-  height: 180px;
+  height: 100px;
   margin: 1rem;
   position: relative;
-  width: 700px;
+  width: 800px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
 }
+.list-group-pic {
+  width: 75px;
+}
 
+.list-group-name {
+  width: 175px;
+}
 
+.list-group-item {
+width: 300px;
+}
 
 .card > .content {
   padding-left: 1rem;

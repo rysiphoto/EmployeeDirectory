@@ -22,7 +22,6 @@ class App extends Component {
             key={employee.id}
             picture={employee.picture}
             name={employee.name}
-            image={employee.picture}
             phone={employee.phone}
             email={employee.email}
           />
