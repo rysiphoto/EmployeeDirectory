@@ -3,25 +3,23 @@ import "./style.css";
 
 function EmployeeCard(props) {
   return (
-    <div className="card">
-      <div className="img-container">
-        <img alt={props.name} src={props.image} />
-      </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Name:</strong> {props.name}
-          </li>
-          <li>
-            <strong>E-Mail</strong> {props.email}
-          </li>
-          <li>
-            <strong>Phone Number</strong> {props.phone}
-          </li>
-        </ul>
+    <div class="card w-75">
+      <div class="card-body">
+        <h5 class="card-title">
+          <strong>Name:</strong> {props.name}
+        </h5>
+        <p class="card-text">
+          <strong>E-Mail</strong> {props.email}
+        </p>
+        <p>
+          <strong>Phone Number</strong> {props.phone}
+        </p>
+
+
       </div>
     </div>
-  );
+  )
+
 }
 
 export default EmployeeCard;
