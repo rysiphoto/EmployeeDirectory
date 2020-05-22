@@ -24,6 +24,7 @@ class App extends Component {
             name={employee.name}
             phone={employee.phone}
             email={employee.email}
+            dob={employee.dob}
           />
         ))}
       </Wrapper>
