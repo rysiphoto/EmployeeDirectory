@@ -3,10 +3,12 @@ import "./style.css";
 
 class SearchBar extends Component {
   state = {
-    name: ""
+    name: "",
+    results: []
   };
 
   handleInputChange = event => {
+    console.log("onChange triggered");
     const { name, value } = event.target;
     this.setState({
       [name]: value
@@ -14,7 +16,10 @@ class SearchBar extends Component {
   };
 
   handleFormSubmit = event => {
-
+    event.preventDefault();
+    this.setState({
+      name: ""
+    });
   };
 
   render() {
