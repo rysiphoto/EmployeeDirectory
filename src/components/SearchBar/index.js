@@ -32,8 +32,7 @@ class SearchBar extends Component {
 
         <nav className="navbar navbar-light bg-danger" id="navbar">
           <form className="form-inline">
-            <input className="form-control mr-sm-2" type="search"
-              value={this.state.name} placeholder="Search By Name"
+            <input className="form-control mr-sm-2" type="search" placeholder="Search By Name"
               onChange={this.handleInputChange} aria-label="Search"></input>
             <button className="btn btn-outline-light my-2 my-sm-0" type="submit" onClick={this.handleInputChange}>Search</button>
           </form>
